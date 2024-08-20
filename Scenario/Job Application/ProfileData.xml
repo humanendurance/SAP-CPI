@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- <profiles xmlns="https://www.w3schools.com"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://www.w3schools.com ProfileParser.xsd"> -->
+<profiles>
+	<candidate>
+		<firstName>Steve</firstName>
+		<lastName>Martin</lastName>
+		<gender>Male</gender>
+		<country>India</country>
+		<skills>
+			<skillName>C++</skillName>
+			<skillCategory>Programmer</skillCategory>
+			<skillProficiency>Amateur</skillProficiency>
+		</skills>
+		<skills>
+			<skillName>C</skillName>
+			<skillCategory>Software Developer</skillCategory>
+			<skillProficiency>Expert</skillProficiency>
+		</skills>
+	</candidate>
+	
+	<candidate>
+		<firstName>Terry</firstName>
+		<lastName>Davis</lastName>
+		<gender>Male</gender>
+		<country>USA</country>
+		<skills>
+			<skillName>C</skillName>
+			<skillCategory>Software Developer</skillCategory>
+			<skillProficiency>Seasoned</skillProficiency>
+		</skills>
+		<skills>
+			<skillName>Holy C</skillName>
+			<skillCategory>Software Developer</skillCategory>
+			<skillProficiency>Seasoned</skillProficiency>
+		</skills>
+	</candidate>
+	
+	<candidate>
+		<firstName>Srinivas</firstName>
+		<lastName>Nithya</lastName>
+		<gender>Female</gender>
+		<country>Germany</country>
+		<skills>
+			<skillName>Python</skillName>
+			<skillCategory>Programmer</skillCategory>
+			<skillProficiency>Amateur</skillProficiency>
+		</skills>
+		<skills>
+			<skillName>Java</skillName>
+			<skillCategory>Software Developer</skillCategory>
+			<skillProficiency>Amateur</skillProficiency>
+		</skills>
+		<skills>
+			<skillName>Clojure</skillName>
+			<skillCategory>Software Developer</skillCategory>
+			<skillProficiency>Expert</skillProficiency>
+		</skills>
+		<skills>
+			<skillName>Linux Shell</skillName>
+			<skillCategory>Programmer</skillCategory>
+			<skillProficiency>Amateur</skillProficiency>
+		</skills>
+	</candidate>
+	
+	<candidate>
+		<firstName>Pramod</firstName>
+		<lastName>Paramanandham</lastName>
+		<gender>Male</gender>
+		<country>UK</country>
+		<skills>
+			<skillName>CSS</skillName>
+			<skillCategory>Programmer</skillCategory>
+			<skillProficiency>Amateur</skillProficiency>
+		</skills>
+		<skills>
+			<skillName>HTML</skillName>
+			<skillCategory>Programmer</skillCategory>
+			<skillProficiency>Amateur</skillProficiency>
+		</skills>
+		<skills>
+			<skillName>JS-FrontEnd</skillName>
+			<skillCategory>Programmer</skillCategory>
+			<skillProficiency>Expert</skillProficiency>
+		</skills>
+	</candidate>
+
+</profiles>
