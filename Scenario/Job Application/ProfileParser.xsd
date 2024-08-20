@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" >
+<!-- Uncomment the following line when using with an XML Validator -->
+<!-- xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified"
+targetNamespace="https://www.w3schools.com"
+xmlns="https://www.w3schools.com" -->>
+
+<xs:element name="profiles">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element name="candidate" maxOccurs="unbounded" >
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="firstName" type="xs:string" />
+						<xs:element name="lastName" type="xs:string" />
+						<xs:element name="gender" >
+							<xs:simpleType>
+								<xs:restriction base="xs:string">
+									<xs:enumeration value = "Male" />
+									<xs:enumeration value = "Female" />
+								</xs:restriction>
+							</xs:simpleType>
+						</xs:element>
+						<xs:element name="country" type="xs:string" />
+						<xs:element name="skills" type="skills" maxOccurs="unbounded" />
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>
+
+<xs:complexType name="skills">
+	<xs:sequence>
+	<xs:element name="skillName" type="xs:string" />
+	<xs:element name="skillCategory">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="Programmer" />
+				<xs:enumeration value="Software Developer" />
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="skillProficiency">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="Noob" />
+				<xs:enumeration value="Amateur" />
+				<xs:enumeration value="Expert" />
+				<xs:enumeration value="Seasoned" />
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	</xs:sequence>
+</xs:complexType>
+</xs:schema>
